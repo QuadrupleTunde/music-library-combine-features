@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const GalleryItem = (props) => {
+function GalleryItem(props){
     let [view, setView] = useState(false)
 
     const simpleView = () => {
